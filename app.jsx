@@ -1,10 +1,15 @@
-var jsx =
+function Hero() {
+   return(
+       <div className="container">
+           <img src="https://facebook.github.io/img.svg"/>
+           <h1>React</h1>
+           <p>ReactJS is good</p>
 
-    <div className="container">
-    <img src="https://facebook.github.io/img.svg"/>
-    <h1>React</h1>
-    <p>ReactJS is good</p>
+       </div>
+   )
+}
 
-</div>;
 
-    ReactDOM.render(jsx, document.getElementById('root'));
+
+
+    ReactDOM.render(<Hero />, document.getElementById('root'));
